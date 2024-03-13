@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <div class="reg">
+        
+        <form method="post" class="form" id="registrationForm">
+            <h1><span class="Re">Re</span>gistration</h1>
+            
+                <fieldset class="fieldset">
+                <legend class="legend">Personal Details</legend>
+                    
+                    <div class="row-one">
+                        <div class="col-one">
+                            <label class="label">Full Name</label>
+                            <input type="text" id="full_name" placeholder="Enter your name" class="form-input">
+                        </div>
+                        <div class="col-one">
+                            <label class="label">Date of Birth</label>
+                            <input type="text" id="dob" placeholder="Enter birth date" class="form-input">
+                        </div>
+                        <div class="col-one">
+                            <label class="label">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" class="form-input">
+                        </div>
+                    </div>
+
+                    <div class="row-two">
+                        <div class="col-two">
+                            <label class="label">Mobile number</label>
+                            <input type="tel" id="mobile" placeholder="Enter mobile number" pattern="[0-9]{10}" class="form-input">
+                        </div>
+                        <div class="col-two">
+                            <label class="label">Gender</label>
+                            <input type="text" id="gender" placeholder="Enter your gender" class="form-input">
+                        </div>
+                        <div class="col-two">
+                            <label class="label">Occupation</label>
+                            <input type="text" id="occupation" placeholder="Enter occupation" class="form-input">
+                        </div>
+                    </div>
+                </fieldset>
+        
+                
+                <fieldset class="fieldset">
+                <legend class="legend">Identity Details</legend>
+                    <div class="row-three">
+                        <div class="col-three">
+                            <label class="label">ID Type</label>
+                            <input type="text" id="id" placeholder="Enter ID type" class="form-input">
+                        </div>
+                        <div class="col-three">
+                            <label class="label">ID Number</label>
+                            <input type="text" id="id_number" placeholder="Enter ID number" class="form-input">
+                        </div>
+                        <div class="col-three">
+                            <label class="label">Issue Authority</label>
+                            <input type="text" id="issue_authority" placeholder="Enter Issue department" class="form-input">
+                        </div>
+                    </div>
+
+                    <div class="row-four">
+                        <div class="col-four">
+                            <label class="label">Issue Date</label>
+                            <input type="text" id="issue_date" placeholder="Enter ID issue date" class="form-input">
+                        </div>
+                        <div class="col-four">
+                            <label class="label">Issue State</label>
+                            <input type="text" id="issue_state" placeholder="Enter ID issue state" class="form-input">
+                        </div>
+                        <div class="col-four">
+                            <label class="label">Expiry Date</label>
+                            <input type="text" id="expiry_date" placeholder="Enter ID expiry date" class="form-input">
+                        </div>
+                    </div>
+                    </fieldset>
+        
+                <div>
+                    <input type="submit" id="submit" Value="Next &rarr;" class="button" >
+                </div>
+
+        </form>
+
+    </div>
+    
+    <div>
+        <p id="output"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+        
+</body>
+</html>

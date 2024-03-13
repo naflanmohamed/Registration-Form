@@ -1,0 +1,119 @@
+body{
+    background-color: #4070F3;
+    font-weight: bolder;
+    font-family: Arial;
+    
+}
+
+.reg{
+    margin: 40px;
+    
+}
+
+h1{
+    padding-left: 14px;
+}
+
+.form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.Re {
+    text-decoration: underline;
+    text-decoration-color: #4070F3;
+}
+
+.legend{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    color: #a2a4a9;
+    font-size: 17px;
+    font-family: Arial;
+
+    
+}
+
+.row-one, .row-two, .row-three, .row-four{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-one, .col-two, .col-three, .col-four{
+    flex: 1;
+    padding-right: 10px;
+    box-sizing: border-box; 
+}
+
+.label{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.button {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 30%;
+    position: relative;
+    right: -10px;
+}
+
+.fieldset{
+    border: 0px solid #dee2e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.form-input {
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-top: 5px;
+}
+
+.output-visible {
+    color: #000000;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    color:#212428;
+    text-align: justify;
+    
+}
